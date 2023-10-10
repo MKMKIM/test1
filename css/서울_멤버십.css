@@ -1,0 +1,378 @@
+.membership_part {
+    width: 100%;
+    height: auto;
+}
+.big_membership {
+    width: 100%;
+    height: 323px;
+    background: url(https://www.fcseoul.com/resources/front/images/sub/common/img_top7.jpg);
+    position: relative;
+}
+.membership_title {
+    color: #fff;
+    text-align: center;
+    line-height: 263px;
+    font-size: 56px;
+    font-weight: 900;
+}
+.membership_nav {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(199, 1, 1, 0.9);
+}
+.membership_nav > .w_1200 > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.membership_nav > .w_1200 > ul > li {position: relative;}
+.membership_nav > .w_1200 > ul > li > a {
+    padding: 22px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 1px #d43e3e solid;
+    border-top: none;
+    border-bottom: none;
+}
+.click_li {
+    width: 300px;
+    height: 100%;
+    border-right: 1px #d43e3e solid;
+    line-height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.click_li > img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.click_li > ul {
+    width: 300px;
+    height: 120px;
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    z-index: 999;
+    box-sizing: border-box;
+}
+.click_li > ul > li {
+    width: 100%;
+    height: 60px;
+    color: #888;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.click_li > ul > li > img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.click_li > ul > li:hover{
+    background: #c70101;
+    color: #fff;
+}
+.main_T {
+    width: 100%;
+}
+.main_T_left {
+    width: 100%;
+    height: 137px;
+    border-bottom: 1px #ddd solid;
+    position: relative;
+}
+.main_T_left > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.main_T_left > ul > li {
+    color: #666;
+    font-size: 17px;
+}
+.share_img {
+    position: absolute;
+    left: 73px;
+    top: 59px;
+}
+.main_T_center > h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    color: #222;
+}
+.main_T_right {
+    width: 78px;
+    height: 28px;
+    border: 1px #666 solid;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.membership_banner {
+    width: 100%;
+    margin-top: 50px;    
+}
+.membership_banner2 {
+    width: 100%;
+    height: 185px;
+    margin-top: 50px;
+    display: flex;
+}
+.membership_banner2_L {
+    width: 384px;
+    height: 185px;
+    background: url(https://www.fcseoul.com/resources/front/images/sub/membership/bg_mem_info.jpg);
+}
+.membership_banner2_L_txt > p {
+    color: #fff;
+    margin: 0;
+}
+.membership_banner2_L_txt > span {
+    color: #b99867;
+}
+.membership_banner2_L_txt {
+    padding: 65px 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.membership_banner2_R {
+    width: calc(100% - 384px);
+    height: 100%;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.membership_banner2_R_txt > p {
+    color: #222;
+    margin: 0;
+}
+.membership_banner2_R_txt > span {
+    color: #888;
+    font-size: 16px;
+}
+.membership_banner2_R_txt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.membership_banner2_R_box1 {
+    position: absolute;
+    top: 43px;
+    right: 50px;
+    width: 204px;
+    height: 46px;
+    background: #c70101;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.membership_banner2_R_box2 {
+    color: #fff;
+    background: #222;
+    position: absolute;
+    bottom: 43px;
+    right: 50px;
+    width: 204px;
+    height: 46px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.membership_banner3 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.membership_banner3_T > ul {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.membership_banner3_T > ul > li > p {
+    font-size: 30px;
+    font-weight: 500;
+}
+.goods {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    background: #f3f3f3;
+    border-top: 1px solid;
+    display: flex;
+}
+.goods_L  {
+    margin-left: 25px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #696868;
+    font-weight: 900;
+}
+.goods_L > span{
+    font-weight: 600;
+    font-size: 26px;
+    color: #222;
+}
+.goods_R {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.goods_R_box {
+    width: 110px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.goods_products {
+    margin-top: 50px;
+}
+.goods_products_box {
+    width: 250px;
+    height: 250px;
+    
+}
+.goods_products > ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.goods_products > ul > li {
+    text-align: center;
+}
+.goods_products > ul > li > img {
+    width: 160px;
+    height: 160px;
+}
+.goods_products_box > p {
+    font-size: 16px;
+    color: #888;
+    margin: 30px 0 5px 0;
+}
+.goods_products_box > span {
+    font-size: 22px;
+    color: #c70101;
+    font-weight: 900;
+}
+.purchase {
+    width: 100px;
+    height: 30px;
+    background: #c70101;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 10px auto; 
+    cursor: pointer;
+}
+.tickets {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    background: #dbdbdb;
+    border-top: 1px solid;
+    display: flex;
+}
+.tickets_L  {
+    margin-left: 25px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #696868;
+    font-weight: 900;
+}
+.tickets_L > span{
+    font-weight: 600;
+    font-size: 26px;
+    color: #222;
+}
+.tickets_R {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tickets_R_box {
+    width: 110px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tickets_txt {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 26px;
+    color: #888;
+    border-bottom: 1px #888 solid;
+    padding-bottom: 20px;
+}
+.tickets_txt > span {
+    color: #c70101;
+    font-size: 36px;
+    font-weight: 600;
+}
+.tickets_txt > p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tickets_txt_purchase {
+    width: 150px;
+    height: 46px;
+    background-color: #c70101;
+    font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}

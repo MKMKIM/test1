@@ -1,0 +1,331 @@
+.MEDIA_part {
+    width: 100%;
+    height: auto;
+}
+.big_media {
+    width: 100%;
+    height: 323px;
+    background: url(https://www.fcseoul.com/resources/front/images/sub/common/img_top3.jpg);
+    position: relative;
+}
+.media_title {
+    color: #fff;
+    text-align: center;
+    line-height: 263px;
+    font-size: 56px;
+    font-weight: 900;
+}
+.media_nav {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(199, 1, 1, 0.9);
+}
+.media_nav > .w_1200 > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.media_nav > .w_1200 > ul > li {position: relative;}
+.media_nav > .w_1200 > ul > li > a {
+    padding: 22px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 1px #d43e3e solid;
+    border-top: none;
+    border-bottom: none;
+}
+.click_li {
+    width: 240px;
+    height: 100%;
+    border-right: 1px #d43e3e solid;
+    line-height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.click_li > img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.click_li > ul {
+    width: 240px;
+    height: 180px;
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+.click_li > ul > li {
+    width: 100%;
+    height: 60px;
+    color: #888;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.click_li > ul > li > img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.click_li > ul > li:hover{
+    background: #c70101;
+    color: #fff;
+}
+.main_T {
+    width: 100%;
+}
+.main_T_left {
+    width: 100%;
+    height: 137px;
+    border-bottom: 1px #ddd solid;
+    position: relative;
+}
+.main_T_left > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.main_T_left > ul > li {
+    color: #666;
+    font-size: 17px;
+}
+.share_img {
+    position: absolute;
+    left: 73px;
+    top: 59px;
+}
+.main_T_center > h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    color: #222;
+}
+.main_T_right {
+    width: 78px;
+    height: 28px;
+    border: 1px #888 solid;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.main_news {
+    margin-top: 50px;
+    position: relative;
+}
+.main_news >.w_1200 {
+    display: flex;
+    gap: 20px;
+}
+.main_news_L {
+    width: 588px;
+    height: 332px;
+    background-image: url(https://files.fcseoul.com/multi01/News/FcNews/1693529614928.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.main_news_L_txt {
+    height: 332px;
+    color: #ddd;
+    background-image: linear-gradient(to top, #000 -55%, rgba(0, 0, 0, -0.5));
+}
+.main_news_L_txt > p {
+    width: 52px;
+    height: 25px;
+    font-weight: 900;
+    background-color: #a88759;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+}
+.main_news_L_txt > span {
+    font-size: 18px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+.main_news_date > img{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.main_news_date > span {
+    position: absolute;
+    bottom: 27px;
+    left: 60px;
+    font-size: 17px;
+}
+.main_news_R {
+    width: 100%;
+    height: 332px;
+    position: relative;
+}
+.main_news_R > ul > li > a > img {
+    width: 167px;
+    height: 94px;
+    box-sizing: border-box;
+}
+.main_news_R > ul > li > a {
+    width: 100%;
+    display: flex;
+    border-top: 1px #ddd solid;
+    padding-top: 12.5px;
+    margin-top: 12.5px;
+}
+#new_R_a1 {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+}
+.main_news_R_txt {position: relative;}
+.main_news_R_txt > p {
+    width: 52px;
+    height: 20px;
+    background: #c70101;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    margin: 0 0 10px 20px;
+}
+.main_news_R_txt > span {font-size: 17px; margin-left: 20px; font-weight: 600;}
+.main_news_R_txt >img {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.img_span {
+    margin-left: 20px;
+    font-size: 17px;
+    position: relative;
+    color: #888;
+}
+.img_span > img {
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+}
+.img_span > span {
+    position: absolute;
+    bottom: -41px;
+    left: 25px;
+}
+.news_list {
+    margin-top: 100px;
+}
+.news_list > h3 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+table { 
+    width: 100% !important; 
+    border-spacing: 0
+}
+th {
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 900;
+    border-top: 1px solid;
+    border-right: #888 1px solid;
+    height: 56px;
+}
+th:first-child{border-left: none;}
+th:last-child{border-right: none;}
+td {
+    background-color: #fff;
+    height: 56px;
+    font-size: 16px;
+    border-top: 1px solid #888;
+    border-right: #888 1px solid;
+    color: #888;
+    box-sizing: border-box;
+    font-weight: 100 !important;
+    line-height: 29px;
+}
+td:first-child{border-left: none; width: 159.63px;}
+td:last-child{border-right: none; width: 270.38px;}
+.td_2_title {
+    width: 770px;
+    text-align: left;
+    display: flex;
+}
+.td_border {border-bottom: 1px #888 solid;}
+.title_news_box {
+    width: 52px;
+    height: 26px;
+    background-color: #c70101;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+}
+.td_2_title > span {
+    margin-left: 10px;
+}
+.td_2_title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c70101;
+}
+.news_box_number {
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+}
+.news_box_number > ul {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.news_box_number > ul > li {
+    width: 30px;
+    border: 1px #888 solid;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #888;
+}
+.news_box_number > ul > li:last-child {
+    background-color: #a88759;
+    border-color: #a88759;
+    color: #fff;
+}
+.news_box_number > ul > li:hover {
+    background-color: #a88759;
+    border-color: #a88759;
+    color: #fff;
+}
+.news_box_number > ul > li > a {
+    display: block;
+}
